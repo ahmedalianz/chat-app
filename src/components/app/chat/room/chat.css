@@ -1,0 +1,22 @@
+.outerContainer {
+    background-color: #358fc7;
+    height: 100vh;
+    display: flex;
+  }
+  .people{
+    width:15%
+  }
+  .containerz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FBFBFB;
+    margin:50px 10px;
+    border-radius: 15px;
+    width:85%;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .containerz{width: 1000%;}
+    } 
+  
